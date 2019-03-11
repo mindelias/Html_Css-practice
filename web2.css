@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+.navi{
+width: 100%;
+height: 60px;
+background:rebeccapurple;
+
+}
+.navi li{
+    /* float: left; */
+     
+    
+    list-style: none;
+    display: inline-flex;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    text-transform:capitalize;
+    margin-bottom: 0%;
+    margin-top: 16px;
+    width: 19%;  
+    /* align-content: space-between; */
+    justify-content: center;
+    font-size: 21px;
+       
+}
+.navi a{
+    text-decoration: none;
+    color: white;
+
+}
+.navi li:hover{
+    background: rgb(99, 5, 122);
+    animation: 1s;
+}
+.container{
+    background: rgb(247, 244, 244);
+    width: 100%;
+    
+    
+}
+.column{
+    float: left;
+    padding:10px;
+    margin:10px;
+    
+}
+.col1{
+    width: 22%;
+
+    height: 700px;
+
+}
+.col2{
+    width:50%;
+    
+    height:800px;
+
+}
+img{
+    width: 100%;
+}
+.col3{
+    width:22%;
+    
+    height:700px;
+}
+/* .flex-container{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap; */
+     /* .side{
+        background-color:lightgreen;
+        
+        
+        width:300px;
+        height: 38px;
+        border-bottom-color: black;
+        text-align: center;
+        color:white;
+         */
+
+.side{ 
+    background: silver;
+    padding: 10px;
+    margin:7px;
+    width: 270px;
+    text-align: center;
+    color: black;
+    height: 38px;
+    border: 1px white solid;
+
+}
+.side:hover{
+    background: darkslategray;
+}
+ 
+.heading{
+    background: rebeccapurple;
+
+}
+
+
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both; */
+
+footer{
+    height:200px;
+    width:94%;
+    
+}
+
+.foot{
+    float:left;
+    margin-right:100px;
+    align-content: space-around;
+    margin-left:100px;
+    margin-top: 50  px;
+    
+    
+
+}
+.foot ul{
+margin:10px;
+padding:10px;
+
+}
+
+@media only screen and (min-device-width: 500px) and (max-device-width:940px){
+
+
+    .navi{
+        width: 60%;
+        height: 40px;
+        background:rebeccapurple;
+    }
+        
+    .navi li{
+        /* float: left; */
+         
+        
+        list-style: none;
+        display: inline-flex;
+        color: white;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 5px;
+        text-transform:capitalize;
+        margin-bottom: 0%;
+        margin-top: 16px;
+        width: 10%;  
+        /* align-content: space-between; */
+        justify-content: center;
+        font-size: 12px;
+        
+           
+    }
+
+    
+     
+    
+    .col1{
+     display: inline;
+    }
+
+
+
+    .col2{
+    width: 33% ;
+    height:1800px ;
+    
+    
+}
+p{
+    word-break: break-all;
+    
+}
+.side{
+     display: inline-flex;
+     overflow-wrap: break-word;
+     height: 34.5px;
+     width:150px;
+    font-size: 10px;
+}
+    
+    img{
+        width: 350px;
+        
+    }
+
+    .col3{
+        display:none; 
+    }
+    
+    .navi li{
+        width: 15%;
+    }
+    footer{
+        height:300px;
+        
+        
+    }
+    
+    .foot{
+        float:inline-start;
+        margin-right:10px;
+        align-content: space-around;
+        margin-left:10px;
+        margin-top: 150px;
+        
+        
+        
+    
+    }
+    .foot ul{
+    margin:5px;
+    padding:10px;
+
+}
+}
+
+@media only screen and (min-device-width:310px) and (max-device-width: 498px){
+
+.navi li{
+    list-style: none;
+    display: inline-flex;
+    color: white;
+    margin-right: 15px;
+    margin-left: 5px;
+    text-transform:capitalize;
+    margin-bottom: 0%;
+    margin-top: 16px;
+    width: 9%;  
+    align-items: center; 
+    justify-content: center;
+    
+    font-size: 10px;
+}
+    
+    .container{
+        background: lightpink;
+        width:60% ;
+    }
+    
+    
+   
+
+    .col2{width: 89% ;
+        text-overflow: ellipsis;
+        padding-right: 5px;
+        margin-left:5px;
+        height:1000px ;
+        
+    }
+  .col3{
+      display:  none;
+
+  }
+  .col1{
+      width: 15%;
+      margin: 5px 10px;
+      height: 800px ;
+      display:inline-flex;
+      flex-flow: row wrap;
+  }
+  h1{
+      font-size: 20px;
+  }
+
+
+  p{
+    font-size: 12px;
+    
+}
+.navi{
+    width: 60%;
+    height: 40px;
+    background:rebeccapurple;
+}
+.side{
+    height: 34.5px;
+    width:150px;
+    font-size: 10px;
+    
+}
+
+ img{
+     display: none;
+ }
+ .foot{
+    float:inline-start;
+    margin-right:5px;
+    
+    margin-left:5px;
+    margin-top: 50px;
+    
+    
+    
+
+}
+.foot ul{
+margin:5px;
+padding:5px;
+}
+}
